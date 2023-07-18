@@ -11,3 +11,49 @@ sudo apt-get install python3-boto3
 
 # for running application
 sudo python3 Empapp.py
+
+Docker Commands 
+
+Managing Containers:
+
+docker run: Create and start a new container based on an image.
+docker start: Start one or more stopped containers.
+docker stop: Stop one or more running containers.
+docker restart: Stop and start a container.
+docker pause: Pause the processes in a running container.
+docker unpause: Resume a paused container.
+docker rm: Remove one or more containers.
+docker ps: List running containers.
+docker ps -a: List all containers (running and stopped).
+
+Working with Images:
+
+docker pull: Pull an image from a registry (e.g., Docker Hub).
+docker build: Build a Docker image from a Dockerfile.
+docker push: Push an image to a registry.
+docker images: List available images.
+docker rmi: Remove one or more images.
+docker tag: Add a tag to an image (e.g., for versioning or organizing).
+
+Managing Docker Volumes:
+
+docker volume create: Create a new volume.
+docker volume ls: List all volumes.
+docker volume rm: Remove one or more volumes.
+docker volume inspect: Display detailed information about a volume.
+docker run -v: Mount a volume inside a container.
+
+Inspecting and Debugging:
+
+docker inspect: Display detailed information about a container or image.
+docker logs: View the logs of a container.
+docker exec: Run a command inside a running container.
+docker cp: Copy files or directories between a container and the host system.
+
+Working with Networks:
+
+docker network create: Create a new network.
+docker network ls: List all networks.
+docker network inspect: Display detailed information about a network.
+docker network connect: Connect a container to a network.
+docker network disconnect: Disconnect a container from a network.
